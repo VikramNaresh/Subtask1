@@ -18,7 +18,7 @@ int main()
     { cout<<"Enter query "<<j+1<<" : \n";
 	  cin>>t;
 	  int z=0,flag=0;
-      for(int i=n-1;i>=0;i--)
+      for(int i=n-1;i>=0;i--) //check from top of stack
        { if(a[i]>=t)
          { z=i;
            flag++; //to check incase query's size cannot be satisfied

@@ -23,7 +23,7 @@ int main()
       cout<<"Not possible!"<<endl;	  // if largest<required
 	  else
 	 {
-	   for(int i=n-1;i>=0;i--)
+	   for(int i=n-1;i>=0;i--) //checking from top of stack
 	   { if(lar==a[i])
 	      { z=i;                  // to find position of 'largest' from top
 	        break;
