@@ -24,7 +24,7 @@ int main()
 	{	  
 	  for(int i=0;i<n;i++)
 	  { if(a[i]>=t && a[i]<=min)
-	     { min=a[i];
+	     { min=a[i];                  //finding smallest number above 't' from bottom to top
 	       z=i;
 		 }
 	     else
